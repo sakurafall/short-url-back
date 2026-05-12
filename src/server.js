@@ -23,5 +23,5 @@ app.listen(PORT, HOST, () => {
   for (const ip of getLocalIPv4s()) {
     console.log(`  ➜  Network:  http://${ip}:${PORT}`);
   }
-  console.log(`API docs (local): http://localhost:${PORT}/api-docs`);
+  // console.log(`API docs (local): http://localhost:${PORT}/api-docs`);
 });
